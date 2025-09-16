@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phishing Unfolding — TryHackMe SOC Simulator</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Roboto', sans-serif; background-color: #f9f9f9; color: #333; line-height: 1.6; }
+  
+  header { background: linear-gradient(135deg, #007acc, #00bcd4); color: white; padding: 3rem 1rem; text-align: center; }
+  header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+  header p { font-size: 1.2rem; opacity: 0.85; }
+
+  main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+
+  section { background: white; padding: 1.8rem 2rem; border-radius: 10px; margin-bottom: 1.8rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05); transition: transform 0.3s; }
+  section:hover { transform: translateY(-5px); }
+
+  h2 { color: #007acc; margin-bottom: 1rem; border-bottom: 2px solid #007acc; padding-bottom: 0.3rem; }
+  ul { margin-left: 1.5rem; list-style-type: square; }
+  a { color: #007acc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  pre { background: #f0f0f0; padding: 1rem; border-radius: 6px; overflow-x: auto; }
+
+  footer { text-align: center; padding: 1.5rem; background-color: #333; color: white; margin-top: 2rem; border-top: 3px solid #007acc; }
+
+  .icon { width: 20px; height: 20px; vertical-align: middle; margin-right: 6px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📨 Phishing Unfolding — TryHackMe SOC Simulator</h1>
+  <p>Hands-on SOC Scenario Report by Eng. Hamzah Ali Alhaidari</p>
+</header>
+
+<main>
+
+<section>
+  <h2>🔎 Project Overview</h2>
+  <p>This project documents my hands-on investigation of the <strong>Introduction to Phishing</strong> scenario on the <strong>TryHackMe SOC Simulator</strong>. The challenge simulates real-world phishing incidents where a SOC Analyst must detect, triage, analyze, and respond to phishing-related alerts.</p>
+  <p>The deliverable includes a <strong>comprehensive PDF report</strong> with step-by-step solutions, screenshots, findings, and recommended mitigations.</p>
+  <p><strong>TryHackMe Summary Link:</strong> <a href="https://tryhackme.com/soc-sim/summary/68c616b3aa468a7609a9be48" target="_blank">Scenario Summary</a></p>
+</section>
+
+<section>
+  <h2>🎯 Objectives</h2>
+  <ul>
+    <li>Detect and analyze phishing-related alerts</li>
+    <li>Distinguish true positives from false positives (alert triage)</li>
+    <li>Perform basic incident response steps and document actions</li>
+    <li>Produce a professional, reproducible PDF report with evidence and recommendations</li>
+  </ul>
+</section>
+
+<section>
+  <h2>📂 Repository Contents</h2>
+  <ul>
+    <li>📄 <strong>Introduction_to_Phishing.pdf</strong> — Full documentation with step-by-step solutions and screenshots</li>
+    <li>📄 <strong>Introduction_to_Phishing.docx</strong> — Editable copy of the report</li>
+    <li>📄 <strong>README.md</strong> — Project overview and instructions</li>
+    <li>🖼️ <strong>assets/</strong> — Optional folder for screenshots or images</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🛠️ How to Use</h2>
+  <p>Clone the repository:</p>
+  <pre>git clone https://github.com/Hamzzaal/Introduction-to-Phishing-TryHackMe-SOC-Simulator.git
+cd Introduction-to-Phishing-TryHackMe-SOC-Simulator</pre>
+  <p>Open the PDF report:</p>
+  <ul>
+    <li>macOS: <code>open Introduction_to_Phishing.pdf</code></li>
+    <li>Linux: <code>xdg-open Introduction_to_Phishing.pdf</code></li>
+    <li>Windows: Double-click <code>Introduction_to_Phishing.pdf</code></li>
+  </ul>
+</section>
+
+<section>
+  <h2>🧠 Skills Demonstrated</h2>
+  <ul>
+    <li>Phishing detection & alert triage</li>
+    <li>Basic forensic evidence collection (screenshots, logs)</li>
+    <li>Incident response workflow (investigate → contain → remediate → report)</li>
+    <li>Technical documentation and reproducible reporting</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🏆 Achievements</h2>
+  <ul>
+    <li>Completed Introduction to Phishing SOC Simulator scenario on TryHackMe</li>
+    <li>Prevented a simulated security breach by accurately identifying phishing-related alerts</li>
+    <li>100% True Positive Identification Rate and 100% False Positive Identification Rate</li>
+    <li>Investigated and triaged alerts such as suspicious inbound emails and firewall blocks</li>
+    <li>Mean time to resolve: ~2 minutes; mean dwell time: 11 minutes</li>
+    <li>Produced a comprehensive incident report covering entities, threat nature, and actions taken</li>
+  </ul>
+</section>
+
+<section>
+  <h2>👤 About the Author</h2>
+  <p><strong>Eng. Hamzah Ali Alhaidari</strong> — Cybersecurity professional focused on SOC analysis, incident response, and threat detection.</p>
+  <ul>
+    <li>🔗 TryHackMe: <a href="https://tryhackme.com/p/ETH.CYBER" target="_blank">ETH.CYBER</a></li>
+    <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/hamzah-alhaidari-bb2228219/" target="_blank">Hamzah Alhaidari</a></li>
+    <li>✉️ Email: 7.7hamza0@gmail.com</li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  &copy; 2025 Hamzah Ali Alhaidari — All Rights Reserved
+</footer>
+
+</body>
+</html>
