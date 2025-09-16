@@ -8,7 +8,7 @@
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Roboto', sans-serif; background-color: #f9f9f9; color: #333; line-height: 1.6; }
-  
+
   header { background: linear-gradient(135deg, #007acc, #00bcd4); color: white; padding: 3rem 1rem; text-align: center; }
   header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
   header p { font-size: 1.2rem; opacity: 0.85; }
@@ -28,6 +28,19 @@
   footer { text-align: center; padding: 1.5rem; background-color: #333; color: white; margin-top: 2rem; border-top: 3px solid #007acc; }
 
   .icon { width: 20px; height: 20px; vertical-align: middle; margin-right: 6px; }
+
+  .download-btn {
+    display:inline-block;
+    padding:12px 25px;
+    background-color:#007acc;
+    color:white;
+    font-weight:bold;
+    border-radius:6px;
+    text-decoration:none;
+    margin-top:10px;
+    transition:0.3s;
+  }
+  .download-btn:hover { background-color:#005f99; }
 </style>
 </head>
 <body>
@@ -64,6 +77,12 @@
     <li>📄 <strong>README.md</strong> — Project overview and instructions</li>
     <li>🖼️ <strong>assets/</strong> — Optional folder for screenshots or images</li>
   </ul>
+</section>
+
+<section>
+  <h2>📥 Download Report</h2>
+  <p>Click the button below to download the full investigation report:</p>
+  <a href="Introduction_to_Phishing.pdf" download class="download-btn">📄 Download PDF Report</a>
 </section>
 
 <section>
